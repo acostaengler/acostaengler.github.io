@@ -92,12 +92,13 @@ h4 {
 
 .about-container {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	flex-wrap: wrap;
 }
 
 .about-container>div {
 	width: 400px;
+	text-align: justify;
 }
 
 
@@ -264,4 +265,8 @@ input[type=submit]:hover {
     .contact-information{
     	font-size: 10px;
     }
+    .about-container {
+	    padding: 0 20px;
+}
+
 }
