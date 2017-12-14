@@ -93,6 +93,7 @@ h4 {
 .about-container {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .about-container>div {
@@ -242,5 +243,8 @@ input[type=submit]:hover {
         display: flex;
         flex-direction: column;
         margin-top: -200px;
+    }
+    .topnav a{
+        font-size: 15px;
     }
 }
