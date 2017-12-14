@@ -246,7 +246,7 @@ input[type=submit]:hover {
         margin-top: -200px;
     }
     .topnav a{
-        font-size: 17px;
+        font-size: 15px;
         padding: 5px;
     }
     .topnav{
@@ -254,7 +254,6 @@ input[type=submit]:hover {
     }
     .logo{
     	position: absolute;
-	    
 	    top: 70px;
 	    left: 160px;
     }
@@ -269,3 +268,5 @@ input[type=submit]:hover {
 	    padding: 0 20px;
     }
 }
+
+
