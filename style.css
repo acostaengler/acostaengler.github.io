@@ -192,7 +192,8 @@ input[type=submit]:hover {
 }
 
 .contact-information>div {
-	margin-right: 20px;
+	margin: 10px;
+	font-family: 'Spectral SC';
 }
 
 /*
@@ -254,5 +255,13 @@ input[type=submit]:hover {
 	    
 	    top: 70px;
 	    left: 160px;
+    }
+    input,
+    textarea {
+	width: 300px;
+	
+}
+    .contact-information{
+    	font-size: 10px;
     }
 }
