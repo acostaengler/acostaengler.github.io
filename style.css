@@ -184,7 +184,6 @@ input[type=submit]:hover {
 .contact-container {
 	display: flex;
 	justify-content: center;
-    flex-wrap: wrap;
 }
 
 .contact-information {
@@ -249,5 +248,11 @@ input[type=submit]:hover {
     }
     .topnav{
         padding: 10px;
+    }
+    .logo{
+    	position: absolute;
+	    
+	    top: 70px;
+	    left: 160px;
     }
 }
