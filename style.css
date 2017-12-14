@@ -1,7 +1,6 @@
 body {
 	background-color: #e6e4e9;
 	margin: 0;
-	padding: 0;
 }
 
 h1,
@@ -103,6 +102,7 @@ h4 {
 .themes-container {
 	display: flex;
 	justify-content: center;
+    flex-wrap: wrap;
 	background-color: #e6e4e9;
 }
 
@@ -133,6 +133,7 @@ h1 {
 .pricing-container {
 	display: flex;
 	justify-content: center;
+    flex-wrap: wrap;
 }
 
 .pricing-container>div {
@@ -176,6 +177,7 @@ input[type=submit]:hover {
 .contact-container {
 	display: flex;
 	justify-content: center;
+    flex-wrap: wrap;
 }
 
 .contact-information {
