@@ -42,8 +42,9 @@ h4 {
 }
 
 .logo {
-	float: left;
-	margin: 5px;
+	position: absolute;
+	left: 30px;
+	top: 5px;
 }
 
 
@@ -53,10 +54,14 @@ h4 {
 ################
 */
 
+.bild-slogan{
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+}
+
 .logo-slogan {
-	position: absolute;
-	top: 250px;
-	left: 100px;
+	margin-top: 200px;
 }
 
 .logo-slogan h2 {
