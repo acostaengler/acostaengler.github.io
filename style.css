@@ -246,6 +246,6 @@ input[type=submit]:hover {
     }
     .topnav a{
         font-size: 14px;
-        padding: 5px;
+        padding:0;
     }
 }
