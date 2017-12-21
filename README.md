@@ -28,9 +28,13 @@ FEEDBACK
 Är HTMLen logiskt upplagd, korrekt indenterad och lättläst?
 
 
+
+
 ● HTMLen är fint strukturerad, lättläst och lättförstådd.
 
 ● Du använder dig utav divar endast. Du skulle kunna dela in saker och ting i section, article.
+
+
 
 
 
