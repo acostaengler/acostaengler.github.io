@@ -1,35 +1,59 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>ARBOREAL</title>
-      <meta charset="UTF-8">
-      <link rel="stylesheet" type="text/css" href="style.css">
-      <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Spectral+SC:200" rel="stylesheet">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
-   <body>
-     
-<div class="topnav">
-  <div class="logo">
-    <img src="images/white-logo.jpg" alt="Arboreal logo" height ="40" width="40">
-  </div>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="themes.html">Themes</a>
-    <a href="pricing.html">Pricing</a>
-    <a href="contact.html">Contact</a>
-</div>
 
-<div class="bild-slogan">
-  <div class="logo-slogan">
-    <h1>ARBOREAL</h1>
-    <h4> - A workplace that is alive create ideas that live on.</h4>
-  </div>
-    <div>
-      <img src="images/framsida2.jpg" alt="image" class="framsida-bild">
+<head>
+  <title>ARBOREAL</title>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Spectral+SC:200" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  
+  <div class="topnav">
+    <div class="logo">
+      <img src="images/white-logo.jpg" alt="Arboreal logo" height="40">
     </div>
-</div>
-   </body>
+    <div class="menu-btn-container" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <div class="nav-link">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="themes.html">Themes</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <div class="container">
+      <div class="bild-slogan">
+        <div class="logo-slogan">
+          <h1>ARBOREAL</h1>
+          <h4> - A workplace that is alive create ideas that live on.</h4>
+        </div>
+        <div>
+          <img src="images/framsida2.jpg" alt="image" class="framsida-bild">
+        </div>
+      </div>
+  </div>
+
+
+
+
+  <script>
+    function myFunction(x) {
+      x.classList.toggle("change");
+      let allAtrs = document.querySelectorAll('.nav-link a'); // Samlar in alla a attributer.
+      allAtrs.forEach(a => a.classList.toggle("open")); // Ger alla a attributer en klass som heter open, som gör de synliga.
+    }
+  </script>
+
+</body>
+
 </html>
