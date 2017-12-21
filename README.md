@@ -27,35 +27,21 @@ FEEDBACK
 
 Är HTMLen logiskt upplagd, korrekt indenterad och lättläst?
 
-
-
-
 ● HTMLen är fint strukturerad, lättläst och lättförstådd.
 
 ● Du använder dig utav divar endast. Du skulle kunna dela in saker och ting i section, article.
 
-
-
-
-
-
 Är CSSen logiskt upplagd, korrekt indenterad och lättläst?
-
 
 ● CSSen är också fint strukturerad, skönt med kommentarer så man förstår vart man är någonstans.
 
 ● En liten sak är att du använder dig utav majoriteten (px-värde). Försök använda dig utav rem / em / %. Annars super bra.
 
-
-
-
 Tydlig namngivning av klasser så att man förstår vad det är som stylas?
 
 ● Namngivningen är bra och förståelig. Finns inte mycket att säga om det.
 
-
 Finns det överflödig CSS? För många selektorer eller för specifika selektorer? Upprepande av egenskaper i CSSen?
-
 
 ● Kan inte finna några fel här, du använder dig utav alla klasser på ett smidigt och bra sätt.
 
