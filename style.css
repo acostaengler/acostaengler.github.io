@@ -1,21 +1,21 @@
 * {
-		box-sizing: border-box;
-		margin: 0;
-		padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
+
 html {
-	font-size: 62.5%; 
-	/* 
-	Denna red gör så att 1rem = 10px.
-	Längre förklaring: tar 62.5% av webläsarens standard 'font-size' standard burkar vara 16px, men folk med sämre syn kan öka det.
-	Det leder till att vi fortfarande tar 62.5% av det användaren har satt som starndard i webläsaren
-	*/
+	font-size: 62.5%;
 }
+
 body {
 	background-color: #e6e4e9;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
 	font-family: 'Spectral SC', serif;
 	text-align: center;
 }
@@ -27,25 +27,34 @@ h1, h2, h3, h4 {
 	justify-content: center;
 	align-items: center;
 }
+
+
 /* Font-size's. Change them here */
+
 h1 {
 	font-size: 5rem;
 }
+
 h2 {
 	font-size: 3rem;
 }
+
 h3 {
 	font-size: 2.6rem;
 }
+
 h4 {
 	font-size: 2.2rem;
 }
+
 p {
 	font-size: 1.8rem;
 }
+
 label {
 	font-size: 1.9rem;
 }
+
 
 /*
 ################
@@ -53,8 +62,7 @@ label {
 ################
 	
 */
-/* #region Navigationbar */
-/* #region Menu-button */
+
 .menu-btn-container {
 	display: inline-block;
 	cursor: pointer;
@@ -63,14 +71,19 @@ label {
 	display: none;
 }
 
-.bar1, .bar2, .bar3 {
+.bar1,
+.bar2,
+.bar3 {
 	width: 35px;
 	height: 5px;
 	background-color: #f2f2f2;
 	margin: 6px 0;
 	transition: 0.4s;
 }
+
+
 /* Roterar bar 1 så den blir diagonal*/
+
 .change .bar1 {
 	-webkit-transform: rotate(-45deg) translate(-9px, 6px);
 	transform: rotate(-45deg) translate(-9px, 6px);
@@ -79,12 +92,15 @@ label {
 .change .bar2 {
 	opacity: 0;
 }
+
+
 /* Samma som bar1 fast för bar3 i motsatt riktining */
+
 .change .bar3 {
 	-webkit-transform: rotate(45deg) translate(-8px, -8px);
 	transform: rotate(45deg) translate(-8px, -8px);
 }
-/* #endregion Menu */
+
 .logo {
 	padding: 1em 0;
 	padding-left: 1em;
@@ -104,30 +120,28 @@ label {
 }
 
 .topnav .nav-link a {
-  color: #f2f2f2;
-  padding: 1em 1em;
-  text-decoration: none;
-  font-size: 1.8rem;
-  font-family: 'Spectral SC', serif;
+	color: #f2f2f2;
+	padding: 1em 1em;
+	text-decoration: none;
+	font-size: 1.8rem;
+	font-family: 'Spectral SC', serif;
 	font-weight: bold;
 	height: 100%;
 	transition: 0.4s;
 }
 
 .topnav .nav-link a:hover {
-  background-color: #ddd;
-  color: black;
+	background-color: #ddd;
+	color: black;
 }
-
-/* #endregion Navigationbar */
 
 /*
 ################
      HOME 
 ################
 */
-/* #region Home */
-.bild-slogan{
+
+.bild-slogan {
 	display: flex;
 	justify-content: space-around;
 	padding: 0 6em;
@@ -148,17 +162,22 @@ label {
 	color: #afc1b0;
 }
 
-.framsida-bild{
+.framsida-bild {
 	width: 100%;
 	height: auto;
 }
 
+
 /* #endregion Home */
+
 
 /* ###############
 	    ABOUT 
    ############### */
+
+
 /* #region About */
+
 .about-container {
 	display: flex;
 	justify-content: space-around;
@@ -172,9 +191,11 @@ label {
 
 .about-container>div h3 {
 	padding-top: 1em;
-} 
+}
+
 
 /* #endregion About */
+
 
 /*
 ################
@@ -185,7 +206,7 @@ label {
 .themes-container {
 	display: flex;
 	justify-content: center;
-  flex-wrap: wrap;
+	flex-wrap: wrap;
 	background-color: #e6e4e9;
 }
 
@@ -212,12 +233,18 @@ h1 {
      PRICING 
 ################
 */
+
+
 /* #region Pricing */
+
 .pricing-container {
 	display: flex;
-	 display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-  display: -ms-flexbox;  /* TWEENER - IE 10 */
-  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+	display: -webkit-box;
+	/* OLD - iOS 6-, Safari 3.1-6, BB7 */
+	display: -ms-flexbox;
+	/* TWEENER - IE 10 */
+	display: -webkit-flex;
+	/* NEW - Safari 6.1+. iOS 7.1+, BB10 */
 	justify-content: center;
 	flex-wrap: wrap;
 }
@@ -225,17 +252,21 @@ h1 {
 .pricing-container>div {
 	background-color: #afc1b0;
 	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-	flex-basis: 20%; /* Säger att värdet får minst vara 28%, om den blir mindre så börjar det wrap */
+	flex-basis: 20%;
+	/* Säger att värdet får minst vara 28%, om den blir mindre så börjar det wrap */
 	margin: 2em 3em;
 	padding: 3em;
 	flex-grow: 1;
 }
+
 .pricing-container div:nth-child(3) {
 	flex-grow: 2;
 }
+
 .pricing-container p {
 	padding: 0.5em 0;
 }
+
 
 /* #endregion Pricing */
 
@@ -281,10 +312,12 @@ input[type=submit]:hover {
 	flex-wrap: wrap;
 }
 
-.contact-information p{
+.contact-information p {
 	margin: 1em;
 	font-family: 'Spectral SC';
 }
+
+
 /*
 #####################
  SOCIAL MEDIA BUTTON 
@@ -306,91 +339,85 @@ i {
 .fa:hover {
 	opacity: 0.7;
 }
+
 .open {
 	display: unset;
 }
+
 
 /*
 #####################
     Media quries 
 #####################
 */
+
 @media (max-width: 1100px) {
 	.bild-slogan {
 		display: flex;
 		flex-direction: column;
 	}
 	.logo-slogan {
-        margin-top: 1em;
-    }
-    .about-container>div {
-	width: 70%;
-}
+		margin-top: 1em;
+	}
+	.about-container>div {
+		width: 70%;
+	}
 }
 
 @media (max-width: 700px) {
-	.container{
+	.container {
 		padding-bottom: 2em;
 	}
 	.logo-slogan {
-        margin-top: 1em;
-    }
-		.menu-btn-container {
-			display: unset;
-		}
-
-		.nav-link {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			width: 100%;
-		}
-
-		a {
-			display: none;
-			width: 100%;
-			text-align: center;
-			border-bottom: 1px solid #f2f2f288;
-		}
-		a:last-child {
-			border-bottom: none;
-		}
-
-		.social-media a {
-			display: unset;
-			border-bottom: none;
-		}
-
-    .bild-slogan {
-        display: flex;
-        flex-direction: column;
-		}
-
-
-		.pricing-container div {
-			flex-basis: 50%;
-		}
-
-    input,
-    textarea {
-	    width: 100%;	
-    }
-    .contact-information{
-    	font-size: 1rem;
-    }
-    .about-container {
-	    padding: 0 2.5em;
-
-		}
-		.about-container>div {
-			width: 80%;
-		}
-
-		.contact-information {
-			flex-direction: column;
-			text-align: center;
-		}
-		.contact-information p{
-			margin: 0.2em;
-		}
+		margin-top: 1em;
+	}
+	.menu-btn-container {
+		display: unset;
+	}
+	.nav-link {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	a {
+		display: none;
+		width: 100%;
+		text-align: center;
+		border-bottom: 1px solid #f2f2f288;
+	}
+	a:last-child {
+		border-bottom: none;
+	}
+	.social-media a {
+		display: unset;
+		border-bottom: none;
+	}
+	.bild-slogan {
+		display: flex;
+		flex-direction: column;
+	}
+	.pricing-container div {
+		flex-basis: 50%;
+	}
+	input,
+	textarea {
+		width: 100%;
+	}
+	.contact-information {
+		font-size: 1rem;
+	}
+	.about-container {
+		padding: 0 2.5em;
+	}
+	.about-container>div {
+		width: 80%;
+	}
+	.contact-information {
+		flex-direction: column;
+		text-align: center;
+	}
+	.contact-information p {
+		margin: 0.2em;
+	}
 }
