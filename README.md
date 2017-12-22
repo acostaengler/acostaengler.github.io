@@ -29,7 +29,7 @@ FEEDBACK
 
  - HTMLen är fint strukturerad, lättläst och lättförstådd.
 
- - Du använder dig utav divar endast. Du skulle kunna dela in saker och ting i section, article.
+ - Du använder dig utav divar endast. Du skulle kunna dela in saker och ting i section.
 
 Är CSSen logiskt upplagd, korrekt indenterad och lättläst?
 
@@ -56,3 +56,17 @@ Finns det överflödig CSS? För många selektorer eller för specifika selektor
 Finns det ändringar i designen som skulle kunna underlätta användandet av sidan? Öka kontrasterna på sidan? Använd mer marginaler/padding för att göra saker luftigare? Finns det element som är ojämnt centrerade etc.?
 
  - Om man ska vara pillig så skulle du kunna öka navbarens textstorlek något. eventuellt fylligare bokstäver.
+
+
+INLÄMNINGSUPPGIFT 2
+
+FEEDBACKEN JAG FÅTT
+Jag valde att inte lägga till section då jag inte har gjort en singel page application och jag har inte så mycket content på min sida som behöver delas upp med section. Alla divar jag har änvänds enbart i design syfte.
+
+MINA BREAKPOINTS
+Jag använde mig utav 2 breakpoints. För första sidan använde jag 1100px då jag ville att bilden skulle lägga sig under texten så fort sidan ändrade storlek. Jag tyckte det blev snyggare med bilden och bilden förflytades snyggt under texten. När jag hade lägre så blev det inte alls lika snyggt.
+För resten av hemsidan använde jag 700px då jag tyckte det passade bäst för den struktur jag ville ha. Jag tyckte att med 700px hamnade boxarna och texten perfekt. 
+
+RESPONSIVT MÖNSTER
+Jag använde Tiny Tweaks då jag hade en väldigt simpel sida med inte så många element. 
+
